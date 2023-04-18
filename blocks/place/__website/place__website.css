@@ -1,0 +1,16 @@
+.place__website {
+  grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  align-content: end;
+  margin: 0;
+}
+
+@media screen and (min-width: 288px) and (max-width: 750px) {
+  .place__website {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0 16px;
+    width: 90vw;
+  }
+}

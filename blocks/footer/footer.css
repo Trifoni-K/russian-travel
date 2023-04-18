@@ -1,0 +1,22 @@
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 48px;
+  padding-bottom: 24px;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1020px) {
+  .footer {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (min-width: 288px) and (max-width: 750px) {
+  .footer {
+    margin: 0 16px;
+    flex-direction: column;
+    align-items: start;
+  }
+}

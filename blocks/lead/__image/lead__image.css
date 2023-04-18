@@ -1,0 +1,36 @@
+.lead__image {
+  width: 984px;
+  max-height: 615px;
+  object-fit: cover;
+  object-position: top;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  .lead__image {
+    width: 100%;
+    min-height: 200px;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1020px) {
+  .lead__image {
+    width: 100%;
+    min-height: 480px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+  .lead__image {
+    width: 100%;
+    max-height: 580px;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1200px) {
+  .lead__image {
+    width: 100%;
+    min-height: 580px;
+  }
+}
